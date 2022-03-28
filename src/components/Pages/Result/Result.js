@@ -11,7 +11,7 @@ const Result = () => {
     let myStyle={};
 
     const fetchHoroscopeDetails=async(sign,date)=>{
-        const {data}= await axios.get(`http://sandipbgt.com/theastrologer/api/horoscope/${sign}/${date}/`)
+        const {data}= await axios.get(`https://sandipbgt.com/theastrologer/api/horoscope/${sign}/${date}/`)
 
         
 
