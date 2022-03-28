@@ -1,0 +1,52 @@
+.result{
+    border: 4px solid darkgray;
+    margin: 1rem;
+    padding: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 60vh;
+    justify-content: center;
+}
+
+.greeting{
+    font-size: 2.5vw;
+    border: 2px solid gray;
+    box-shadow: 5px 5px grey;
+    padding: 0rem 0.5rem;
+
+}
+
+.details{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+
+.details h1{
+    margin: 1rem 0rem;
+}
+
+.description{
+    font-weight: bold;
+}
+
+@media only screen and (max-width:950px){
+    .greeting{
+        font-size: 4vw;
+    }
+
+    .details h1{
+        font-size: 1.8rem;
+    }
+}
+
+@media only screen and (max-width:550px){
+    .greeting{
+        font-size:5vw
+    }
+    .details h1{
+        font-size: 1.2rem;
+    }
+}
