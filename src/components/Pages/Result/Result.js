@@ -43,7 +43,7 @@ const Result = () => {
                 Welcome, {userInfo.name}
             </div>
             <div className="details">
-                <h1>Your {userInfo.date} horoscope is: </h1>
+                <h1>Your {userInfo.date} horoscope for {horoscopeInfo.sunsign} is: </h1>
                 <p className='description' style={myStyle}>{horoscopeInfo.horoscope}</p>
             </div>
         </div>
